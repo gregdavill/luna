@@ -11,8 +11,8 @@ Its components facilitate data transfer longer than a single packet.
 
 import unittest
 
-from nmigen         import Signal, Elaboratable, Module, Array
-from nmigen.hdl.mem import Memory
+from amaranth         import Signal, Elaboratable, Module, Array
+from amaranth.hdl.mem import Memory
 
 from .packet        import HandshakeExchangeInterface, TokenDetectorInterface
 from ..stream       import USBInStreamInterface

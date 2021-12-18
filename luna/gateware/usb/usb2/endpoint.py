@@ -9,8 +9,8 @@
 import functools
 import operator
 
-from nmigen         import Signal, Elaboratable, Module
-from nmigen.hdl.ast import Past
+from amaranth         import Signal, Elaboratable, Module
+from amaranth.hdl.ast import Past
 
 from .packet        import DataCRCInterface, InterpacketTimerInterface, TokenDetectorInterface
 from .packet        import HandshakeExchangeInterface

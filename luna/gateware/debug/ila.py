@@ -16,10 +16,10 @@ import subprocess
 
 from abc             import ABCMeta, abstractmethod
 
-from nmigen          import Signal, Module, Cat, Elaboratable, Memory, ClockDomain, DomainRenamer
-from nmigen.hdl.ast  import Rose
-from nmigen.lib.cdc  import FFSynchronizer
-from nmigen.lib.fifo import AsyncFIFOBuffered
+from amaranth          import Signal, Module, Cat, Elaboratable, Memory, ClockDomain, DomainRenamer
+from amaranth.hdl.ast  import Rose
+from amaranth.lib.cdc  import FFSynchronizer
+from amaranth.lib.fifo import AsyncFIFOBuffered
 from vcd             import VCDWriter
 from vcd.gtkw        import GTKWSave
 

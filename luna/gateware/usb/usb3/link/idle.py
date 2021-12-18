@@ -5,8 +5,8 @@
 # SPDX-License-Identifier: BSD-3-Clause
 """ Logical idle detection / polling gateware. """
 
-from nmigen         import *
-from nmigen.hdl.ast import Past
+from amaranth         import *
+from amaranth.hdl.ast import Past
 
 from ...stream      import USBRawSuperSpeedStream
 

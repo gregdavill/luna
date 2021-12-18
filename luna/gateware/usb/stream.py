@@ -8,9 +8,9 @@
 
 import unittest
 
-from nmigen          import Elaboratable, Signal, Module
-from nmigen.hdl.rec  import Record, DIR_FANIN, DIR_FANOUT
-from nmigen.hdl.xfrm import DomainRenamer
+from amaranth          import Elaboratable, Signal, Module
+from amaranth.hdl.rec  import Record, DIR_FANIN, DIR_FANOUT
+from amaranth.hdl.xfrm import DomainRenamer
 
 from ..stream         import StreamInterface
 from ..stream.arbiter import StreamArbiter
