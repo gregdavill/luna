@@ -10,7 +10,7 @@
 
 from amaranth import Elaboratable, Module, Signal, Cat, C
 from amaranth.lib.cdc import FFSynchronizer
-from amaranth.hdl.rec import Record, DIR_FANIN, DIR_FANOUT
+from ..utils.rec import Record, DIR_FANIN, DIR_FANOUT
 
 
 __all__ = ["I2CBus", "I2CInitiator", "I2CRegisterInterface"]

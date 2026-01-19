@@ -11,7 +11,7 @@ import functools
 from enum import IntEnum
 
 from amaranth           import *
-from amaranth.hdl.rec   import Layout
+from ....utils.rec      import Layout
 
 from ....stream.arbiter import StreamArbiter
 

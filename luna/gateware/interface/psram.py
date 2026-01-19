@@ -7,7 +7,7 @@
 """ Interfaces to LUNA's PSRAM chips."""
 
 from amaranth import Const, Signal, Module, Cat, Elaboratable, Record, ClockSignal, ResetSignal, Instance
-from amaranth.hdl.rec import DIR_FANIN, DIR_FANOUT
+from ..utils.rec import DIR_FANIN, DIR_FANOUT
 from amaranth.lib.cdc import FFSynchronizer
 
 

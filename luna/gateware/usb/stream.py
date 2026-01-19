@@ -6,9 +6,8 @@
 
 """ Core stream definitions. """
 
-from amaranth          import Elaboratable, Signal, Module
-from amaranth.hdl.rec  import Record, DIR_FANIN, DIR_FANOUT
-from amaranth.hdl.xfrm import DomainRenamer
+from amaranth          import Elaboratable, Signal, Module, DomainRenamer
+from ..utils.rec       import Record, DIR_FANOUT
 
 from ..stream          import StreamInterface
 from ..stream.arbiter  import StreamArbiter

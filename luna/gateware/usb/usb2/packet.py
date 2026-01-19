@@ -11,7 +11,7 @@ import operator
 import functools
 
 from amaranth          import Signal, Module, Elaboratable, Cat, Array, Const
-from amaranth.hdl.rec  import Record, DIR_FANIN, DIR_FANOUT
+from ...utils.rec      import Record, DIR_FANIN, DIR_FANOUT
 
 from .                 import USBSpeed, USBPacketID
 from ..stream          import USBInStreamInterface, USBOutStreamInterface

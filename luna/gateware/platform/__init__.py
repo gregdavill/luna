@@ -13,7 +13,7 @@ import importlib.util
 
 from typing import Optional
 
-from amaranth import Record
+from ..utils.rec import Record
 
 from .core import NullPin, LUNAPlatform
 from .toolchain import configure_toolchain

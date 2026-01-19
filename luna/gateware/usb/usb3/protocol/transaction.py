@@ -6,7 +6,7 @@
 """ Protocol-level Transaction Packet (flow control header) generation. """
 
 from amaranth import *
-from amaranth.hdl.rec import DIR_FANOUT, DIR_FANIN
+from ....utils.rec import DIR_FANOUT, DIR_FANIN
 
 from usb_protocol.types import USBDirection
 from usb_protocol.types.superspeed import HeaderPacketType, TransactionPacketSubtype

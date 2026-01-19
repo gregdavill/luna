@@ -7,7 +7,7 @@
 """ SPI and derived interfaces. """
 
 from amaranth import Signal, Module, Cat, Elaboratable, Record
-from amaranth.hdl.rec import DIR_FANIN, DIR_FANOUT
+from ..utils.rec import DIR_FANIN, DIR_FANOUT
 
 from ..test.utils import LunaGatewareTestCase, sync_test_case
 

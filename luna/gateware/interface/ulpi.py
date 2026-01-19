@@ -8,8 +8,8 @@
 """ ULPI interfacing hardware. """
 
 from amaranth       import Signal, Module, Cat, Elaboratable, ClockSignal, \
-                           Record, ResetSignal, Const
-from amaranth.hdl.rec import Record, DIR_FANIN, DIR_FANOUT, DIR_NONE
+                           ResetSignal, Const
+from ..utils.rec import Record, DIR_FANIN, DIR_FANOUT
 
 from ..utils.io     import delay
 

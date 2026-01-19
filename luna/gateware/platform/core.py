@@ -8,7 +8,7 @@
 
 import logging
 
-from amaranth import Signal, Record
+from ..utils.rec import Signal, Record
 from amaranth.build.res import ResourceError, Subsignal, Resource, Pins
 
 

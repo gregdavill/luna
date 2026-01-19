@@ -9,7 +9,7 @@
 from amaranth         import *
 from amaranth.lib.cdc import FFSynchronizer, PulseSynchronizer
 from amaranth.hdl.ast import ValueCastable
-from amaranth.hdl.rec import DIR_FANIN, DIR_FANOUT
+from ..utils.rec import DIR_FANIN, DIR_FANOUT
 
 from ..utils        import falling_edge_detected, rising_edge_detected
 from .spi           import SPIRegisterInterface

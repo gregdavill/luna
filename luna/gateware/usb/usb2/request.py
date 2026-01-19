@@ -10,9 +10,8 @@ import functools
 import operator
 
 from amaranth            import Signal, Module, Elaboratable, Cat
-from amaranth.lib.coding import Encoder
+from ...utils.coding import Encoder
 from amaranth.lib.data   import Struct
-from amaranth.hdl.rec    import Record, DIR_FANOUT
 
 from .                   import USBSpeed
 from .packet             import USBTokenDetector, USBDataPacketDeserializer

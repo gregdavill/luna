@@ -6,7 +6,7 @@
 """ Request components shared between USB2 and USB3. """
 
 from amaranth       import *
-from amaranth.hdl.rec import DIR_FANOUT
+from ...utils.rec import Record, DIR_FANOUT
 
 
 class SetupPacket(Record):
